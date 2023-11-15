@@ -2,36 +2,35 @@ import React from "react";
 import HeaderButton from "./headerButton/headerButton";
 import "./header.css";
 import logo from "../../assets/ico/logo.svg";
-import stores from "../../assets/ico/stores.svg"
 
 const buttonList = [
   {
     name: "logo",
-    link: "home",
+    link: "/home",
     customCss: "",
     img: logo,
   },
   {
-    name: "COFFEE",
-    link: "coffee",
+    name: "MENÚ",
+    link: "/menu",
     customCss: "",
     img: "",
   },
   {
-    name: "MENU",
-    link: "menu",
+    name: "CAFÉ",
+    link: "/cafe",
     customCss: "",
     img: "",
   },
   {
     name: "EXPERIENCIA",
-    link: "experiencia",
+    link: "/experiencia",
     customCss: "",
     img: "",
   },
   {
     name: "Localizar tienda",
-    link: "localizar",
+    link: "/localizar",
     customCss: "header__button--right",
     img: "",
   },
