@@ -1,11 +1,13 @@
-import React from 'react'
+import React from "react";
+import TittleBar from "../../components/titleBar/TitleBar";
 
-const Cafe = () => {
+function CafePage() {
   return (
     <div>
-      <h1>Café</h1>
+      <TittleBar text={"Nuestro café"}></TittleBar>
+      CafePage
     </div>
-  )
+  );
 }
 
-export default Cafe
+export default CafePage;

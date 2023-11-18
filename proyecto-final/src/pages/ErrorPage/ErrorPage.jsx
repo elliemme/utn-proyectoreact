@@ -1,6 +1,6 @@
 import React from 'react'
 import './ErrorPage.css'
-
+import notFound from "../../assets/img/404.jpg";
 
 const ErrorPage = () => {
   return (
@@ -10,6 +10,7 @@ const ErrorPage = () => {
       <p>
         <i>Not Found</i>
       </p>
+      <img src={notFound} alt="" />
     </div>
   )
 }
