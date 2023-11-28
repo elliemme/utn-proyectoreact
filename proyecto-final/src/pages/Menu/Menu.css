@@ -1,0 +1,19 @@
+.menu__title {
+  margin-top: 20px;
+}
+
+.menuGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  padding: 40px;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+@media (max-width: 560px) {
+  .menuGrid {
+    grid-template-columns: 100%;
+  }
+}

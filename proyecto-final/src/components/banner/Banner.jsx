@@ -1,10 +1,5 @@
 import "./banner.css";
 
-/**
-*
-* @param {boolean} isFlipped - Modifica como se ve el banner, invertido o no
-* @param {text} backgroundColor - Modifica el color de fondo
-*/
 export default function Banner({
   img,
   title,

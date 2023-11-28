@@ -2,15 +2,16 @@ import React from "react";
 import Banner from "../../components/banner/Banner";
 import banner1 from "../../assets/img/banner1.png";
 import banner2 from "../../assets/img/banner2.png";
+import "./homePage.css";
 
 function HomePage() {
   return (
-    <div>
+    <div className="home__page">
       <Banner
         img={banner1}
-        title={"¡PUMPKINLICIOUS!"}
+        title={"¡La magia llegó a nuestras tiendas!"}
         description={
-          "Una temporada con tu favorito de siempre. ¡Nuestro Pumpkin Spice vuelve por tiempo limitado en sus versiones Iced, Latte y Frappuccino!"
+          "Sentí el cariño de esta temporada con tus favoritos y llena de sabor cada momento. #LlevemosLaMagia."
         }
         backgroundColor={"#e31c79"}
         color={"#fff"}

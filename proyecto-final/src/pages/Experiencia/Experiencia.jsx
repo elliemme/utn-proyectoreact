@@ -4,12 +4,12 @@ import banner3 from "../../assets/img/banner_3.png";
 import banner4 from "../../assets/img/banner_4.png";
 import banner5 from "../../assets/img/banner_5.png";
 import TittleBar from "../../components/titleBar/TitleBar";
+import "./experiencia.css";
 
 function Experiencia() {
-  
   return (
-    <div>
-      <TittleBar text={"Experiencias"} ></TittleBar>
+    <div className="experiencia__page">
+      <TittleBar text={"Experiencias"}></TittleBar>
       <br />
       <Banner
         img={banner3}

@@ -6,10 +6,11 @@ body,
 html {
   margin: 0;
   padding: 0;
-  font-family: 'SoDo Sans', sans-serif;
+  font-family: "SoDo Sans", sans-serif;
 }
 
-ul, li{
+ul,
+li {
   margin: 0;
   padding: 0;
   list-style: none;

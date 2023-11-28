@@ -1,10 +1,11 @@
-header .header__container{
-    display: flex;
-    gap: 30px;
-    height: 90px;
-    padding-block: 20px;
-    font-family: 'SoDo Sans', sans-serif;
-    font-weight: 600;
-    font-size: .875rem;
-    letter-spacing: .1em;
+header .header__container {
+  display: flex;
+  gap: 30px;
+  height: 90px;
+  padding-block: 20px;
+  font-family: "SoDo Sans", sans-serif;
+  font-weight: 600;
+  font-size: 0.875rem;
+  letter-spacing: 0.1em;
 }
+

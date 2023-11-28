@@ -1,0 +1,46 @@
+.region-prefooter {
+  box-shadow: 0 -3px 3px rgba(0, 0, 0, 0.1);
+  position: relative;
+  z-index: 1;
+  padding: 20px;
+  justify-content: space-between;
+}
+
+.region-prefooter .wrapper-menu {
+  display: flex;
+  position: relative;
+  justify-content: center;
+}
+
+.redes_sociales {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.social-icon {
+  font-size: 30px;
+  margin-top: 40px;
+  color: black;
+}
+
+.policy {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "SoDo Sans";
+}
+
+.po {
+  margin-right: 20px;
+  text-decoration: none;
+  color: #999999;
+  font-size: 16px;
+  font-family: "SoDo Sans", sans-serif;
+}
+
+.policy a:hover {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.67);
+}

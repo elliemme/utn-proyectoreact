@@ -1,5 +1,5 @@
-import React from 'react'
-import './ErrorPage.css'
+import React from "react";
+import "./ErrorPage.css";
 import notFound from "../../assets/img/404.jpg";
 
 const ErrorPage = () => {
@@ -12,7 +12,7 @@ const ErrorPage = () => {
       </p>
       <img src={notFound} alt="" />
     </div>
-  )
-}
+  );
+};
 
-export default ErrorPage
+export default ErrorPage;
